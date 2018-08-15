@@ -1,4 +1,112 @@
-body
+
+.container
 {
-    background: gray;
+    height: 100%;
+    width:80%;
+    background: white;
+    border :1px solid orange;
+    border-radius: 15px;
+}
+
+.margin-auto
+{
+    width:100%;
+    margin: auto;
+}
+
+.vertical-align
+{
+    vertical-align: middle;
+}
+.center
+{
+text-align: center;
+}
+
+.header
+{
+margin:50px;
+}
+
+.title-block{
+width: 100%;
+border-bottom:2px solid orange;
+text-align: center;
+margin: 0 auto;
+position: relative;
+}
+
+
+.card-text ul li p
+{
+    text-align: justify;
+}
+.title-block h1{
+color: orange;
+font-family: 'Lucida Grande';
+font-weight: 200;
+}
+
+.title-block:after{
+content: ' ';
+width: 0;
+height: 0;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-top: 20px solid orange;
+position: absolute;
+margin-left : -20px;
+left: 50%;
+}
+.card-first
+{
+margin:auto;
+}
+.fa-cog {
+color:white;
+}
+a span
+{
+color:white;
+font-size: 20px;
+}
+
+.card
+{
+    margin-bottom: 50px;
+}
+.card-header span
+{
+    color:blue;
+}
+
+
+@media only screen and (min-width:780px)
+{
+    .large
+    {
+        display: block;
+    }
+    .small
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .title-block h1
+    {
+        color: orange;
+        font-family: 'Lucida Grande';
+        font-size: 2em;
+  }
+  .large
+  {
+    display: none;
+  }
+  .small
+  {
+      display: block;
+  }
+
 }
