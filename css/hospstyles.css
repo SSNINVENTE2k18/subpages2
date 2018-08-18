@@ -3,7 +3,6 @@
 {
     height: 100%;
     width:80%;
-    background: white;
     border :1px solid orange;
     border-radius: 15px;
 }
@@ -13,6 +12,54 @@
     width:100%;
     margin: auto;
 }
+
+.ul-small
+{
+    list-style: none;
+}
+
+.ul-small li
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.map1
+{
+    margin-left:195px; 
+}
+
+.map2
+{
+    margin-left: 240px;
+}
+
+.map
+{
+    margin-top: 30px;
+}
+
+.map3
+{
+    margin-left: 150px;
+}
+
+.map-font
+{
+margin-left: 10px;
+}
+
+.fa-circle,.fa-minus
+{
+    color: #0b76f1fa;
+    margin-left: 5px;
+}
+
+.fa-map-marker
+{
+    color: rgb(250, 69, 69);
+}
+
 
 .vertical-align
 {
@@ -41,10 +88,10 @@ position: relative;
 {
     text-align: justify;
 }
+
 .title-block h1{
 color: orange;
-font-family: 'Lucida Grande';
-font-weight: 200;
+font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .title-block:after{
@@ -58,6 +105,7 @@ position: absolute;
 margin-left : -20px;
 left: 50%;
 }
+
 .card-first
 {
 margin:auto;
@@ -75,6 +123,7 @@ font-size: 20px;
 {
     margin-bottom: 50px;
 }
+
 .card-header span
 {
     color:blue;
@@ -96,8 +145,7 @@ font-size: 20px;
 @media only screen and (max-width: 780px) {
     .title-block h1
     {
-        color: orange;
-        font-family: 'Lucida Grande';
+     
         font-size: 2em;
   }
   .large
